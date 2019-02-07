@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8" />
 	<meta name="author" content="Denis Samardjiev" />
 	<meta name="description" content="Married | 3 in 1 Wedding Template">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -14,15 +15,15 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 	<!-- Parallax -->
-	<script type="text/javascript"  src="js/parallax.min.js"></script>
+	<script type="text/javascript" src="js/parallax.min.js"></script>
 
 	<!-- Preloader -->
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
 		Royal_Preloader.config({
-		    mode:           'number',
-		    showProgress:   false,
-		    background:     '#ffffff'
+			mode: 'number',
+			showProgress: false,
+			background: '#ffffff'
 		});
 	</script>
 
@@ -34,7 +35,9 @@
 	<link href="css/colors/lavender.css" rel="stylesheet">
 
 </head>
-<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="81">
+
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar"
+  data-offset="81">
 	<div id="royal_preloader"></div>
 
 	<!-- Begin Header -->
@@ -45,13 +48,15 @@
 				<div class="row">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						  data-target="#navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand scroll-link" href="#home" data-id="home">Alex &amp; Becky's Wedding</a>
+						<a class="navbar-brand scroll-link" href="#home" data-id="home">Alex
+							&amp; Becky's Wedding</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,7 +67,8 @@
 							<li><a href="#gallery" data-id="gallery" class="scroll-link">Gallery</a></li>
 							<li><a href="#location" data-id="location" class="scroll-link">Location</a></li>
 							<li><a href="#registry" data-id="registry" class="scroll-link">Gifts</a></li>
-							<li class="nav-btn"><a data-toggle="modal" data-target="#rsvp-modal" class="btn btn-primary btn-lg">RSVP</a></li>
+							<!-- <li class="nav-btn"><a data-toggle="modal" data-target="#rsvp-modal"
+								  class="btn btn-primary btn-lg">RSVP</a></li> -->
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.row -->
@@ -70,83 +76,13 @@
 		</nav>
 		<!-- End Navigation -->
 
-		<!-- Begin RSVP Form -->
-		<div class="modal fade" id="rsvp-modal" tabindex="-1" role="dialog">
-		    <div class="modal-dialog">
-		        <div class="modal-content">
-		            <div class="modal-header">
-		                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
-		                </button>
-		                <span class="pe-7s-anchor services-icon-2"></span>
-		                <h4 class="modal-title">RSVP</h4>
-		            </div>
-		            <div class="modal-body">
-		            	<p class="mb20">Pellentesque tincidunt tempor fermentum. Nunc vehicula ut lec tus ac commodo cibus justo. Phasellus pulvinar tellus sed dictum semper. Donec vitae sapien quis nisl gravida finibus. Aenean in condimentum nisl, hendrerit aliquet quam.</p>
-						<form data-toggle="validator" id="contactForm" name="contactForm">
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="form-group">
-										<label for="name">Name *</label>
-										<div class="controls">
-											<input class="form-control" data-error="This section is required." id="name" placeholder="Your full name" required="" type="text">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div><!-- /.column -->
-								<div class="col-sm-6">
-									<div class="form-group">
-										<label for="name">Email *</label>
-										<div class="controls">
-											<input class="email form-control" data-error="This section is required." id="email" placeholder="Enter your email" required="" type="email">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div><!-- /.column -->
-							</div><!-- /.row -->
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="form-group">
-										<label for="name">Guests *</label>
-										<div class="controls">
-											<input class="form-control" data-error="This section is required."
-											id="msg_subject" placeholder="Total guests with names" required="" type="text">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div><!-- /.column -->
-							</div><!-- /.row -->
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="form-group mb10">
-										<label for="name">Message *</label>
-										<div class="controls">
-											<textarea class="form-control" data-error="This section is required." id="message" placeholder="Any extra information" required="" rows="5"></textarea>
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-12 mb20">
-									<div id="msgSubmit" class="h4 hidden no-margin-bottom"></div>
-								</div><!-- /.column -->
-								<div class="col-sm-12 text-right">
-									<button type="submit" id="submit" class="btn btn-primary btn-block btn-lg">Send</button>
-								</div><!-- /.column -->
-							</div><!-- /.row -->
-						</form><!-- /.form -->
-		            </div>
-		        </div><!-- /.modal-content -->
-		    </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
-		<!-- End RSVP Form -->
-
 	</header>
 	<!-- End Header -->
 
 	<!-- Begin Jumbotron -->
 	<div class="jumbotron-holder">
-		<div class="jumbotron jumbotron-main parallax-window" id="home" data-parallax="scroll" data-image-src="images/tone1.jpg">
+		<div class="jumbotron jumbotron-main parallax-window" id="home" data-parallax="scroll"
+		  data-image-src="images/tone1.jpg">
 			<div class="container height-100">
 				<div class="center-vertically-holder">
 					<div class="center-vertically">
@@ -155,13 +91,14 @@
 								We Can't Tone It Down!
 							</h1>
 							<span class="section-divider section-divider-center section-divider-transparent"></span>
-							<p>Alex &amp; Becky's Wedding On September 6th · Shining Waters Marine, Tantallon, NS</p>
-							<button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#rsvp-modal">RSVP</button>
+							<p>Alex &amp; Becky's Wedding On September 6th · Shining Waters Marine,
+								Tantallon, NS</p>
+							<!-- <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#rsvp-modal">RSVP</button> -->
 						</div><!-- /.column -->
 
 						<div class="scroll-down">
-				            <a href="#story" data-id="story" class="btn scroll-link"><span class="ion-ios-arrow-down scroll-indicator"></span></a>
-				        </div>
+							<a href="#story" data-id="story" class="btn scroll-link"><span class="ion-ios-arrow-down scroll-indicator"></span></a>
+						</div>
 					</div><!-- /.vertical center -->
 				</div><!-- /.vertical center holder -->
 			</div><!-- /.container -->
@@ -176,10 +113,22 @@
 				<!-- Content -->
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<h3 class="section-title mb30">Our Story</h3>
-					<h2 class="no-margin-top mb20">How Max &amp; Alexandra met each other</h2>
-					<p class="mb20">Pellentesque tincidunt tempor fermentum. Nunc vehicula ut lectus ac commodo cibus justo. Phasellus pulvinar tellus sed dictum semper. Donec vitae sapien quis nisl gravida finibus. Aenean in condimentum nisl, hendrerit aliquet quam. Nulla diam arcu, ullamcorper eu euismod eget, vestibulum a lacus. Proin luctus ante et metus porttitor interdum.</p>
-					<p class="mb20">Donec tempor mi ut viverra vulputate. Sed tincidunt magna ex, pharetra congue magna maximus volutpat. Vestibulum suscipit tellus non purus facilisis, et faucibus metus congue. Nullam a quam tortor. <span class="text-heavy text-color">We love each other.</span> Phasellus nisl dolor, commodo a tincidunt vel, imperdiet non lacus. Curabitur sit amet posuere lectus, nec varius ipsum. Fusce pretium felis libero, at varius mauris efficitur quis. Sed tempor eleifend euismod. Aenean in condim entum nisl, hendrerit aliquet quam. Nulla diam arcu, ullamcorper eu euismod eget.</p>
-					<p class="mb30">Vivamus lobortis lectus mauris, feugiat feugiat enim efficitur at. Fusce vitae tempus ex. Vivamus nec tellus sed tellus convallis accumsan ac id nibh. Etiam in ante lorem. Donec vulputate turpis et leo porttitor tincidunt. Fusce felis mauris, auctor vitae odio et, mollis suscipit augue. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+					<h2 class="no-margin-top mb20">I-choo-choo-choose you!</h2>
+					<p class="mb20">Alex and I first met back in 2013. We went on one coffee
+						date to the Second Cup on Spring Garden Road (which no longer exists) and
+						had a walk in the Public Gardens. “So, do you want to do this again?” I
+						asked. “Absolutely!” said Alex. “Text me.” I did not text him. He did not
+						text me.</p>
+					<p class="mb20">Fast-forward to summer 2014, when I was surfing Tinder
+						following a break-up. I recognized Alex’s photo right away, and when we
+						matched, I initiated a conversation. We made plans to meet up the next
+						time I was in Halifax, as I was working a summer job at a paper in
+						Bridgewater at the time. We agreed to date casually at first, but then we
+						fell in love. The rest – as they say – is history.</p>
+					<p class="mb30">Some people think dating apps are unromantic, but without
+						one, we may never have found each other again. I do think we were meant
+						to find each other again. </p>
+					<p><span class="text-heavy text-color">-Becky</span></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -194,41 +143,91 @@
 					<ul class="timeline timeline-pad">
 						<!-- Item 1 -->
 						<li>
-							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/square/cake.jpg"></div>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/gallery/square/cake.jpg"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h3 class="section-sub-title text-color mb15">2015</h3>
-									<h4>We met each other on the pier.</h4>
+									<h3 class="section-sub-title text-color mb15">Summer 2013</h3>
+									<h4>Our First Date</h4>
 								</div>
 								<div class="timeline-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+									<p>Our first date was at the Second Cup (fishbowl) coffee shop,
+										formerly on Spring Garden.</p>
 								</div>
 							</div>
 						</li>
 
 						<!-- Item 2 -->
 						<li class="timeline-inverted">
-							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/square/all_three.jpg"></div>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/beer.jpg"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h3 class="section-sub-title text-color mb15">2015</h3>
-									<h4>Should we get married?</h4>
+									<h3 class="section-sub-title text-color mb15">August 2014</h3>
+									<h4> Our Second First Date</h4>
 								</div>
 								<div class="timeline-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+									<p>After reconnecting, we met up at Stillwell's beer bar on
+										Barrington.</p>
 								</div>
 							</div>
 						</li>
 
-						<!-- Item 3 -->
+
 						<li>
-							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/square/grapes3.jpg"></div>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/movein.jpg"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h3 class="section-sub-title text-color mb15">2016 May</h3>
-									<h4>Were getting married!</h4>
+									<h3 class="section-sub-title text-color mb15">September 2015</h3>
+									<h4>We Move In Together</h4>
 								</div>
-								<div class="timeline-body"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+								<div class="timeline-body">
+									<p>We decided to move into together after a year of dating. Found a
+										one bedroom around the Dalhousie Campus.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/tone1square.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">November 2015</h3>
+									<h4>We Adopt Tone</h4>
+								</div>
+								<div class="timeline-body">
+									<p>On November 29<sup>th</sup> 2015, we adopted our greyhound, Tone,
+										and doomed our selves to saying "What do you have?!" multiple times a
+										day.</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/card.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">August 2017</h3>
+									<h4>Alex Proposes</h4>
+								</div>
+								<div class="timeline-body">
+									<p>August 28<sup>th</sup> 2017, Alex surprised Becky with flowers, a
+										card, and a bottle of Nova 7 asking her to marry him. The answer was
+										"What the f**k?".</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/gallery/square/grapes3.jpg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15"> September 2020</h3>
+									<h4 class="text-color">We're getting married!</h4>
 								</div>
 							</div>
 						</li>
@@ -242,7 +241,8 @@
 
 	<!-- Begin Parallax Image -->
 	<div class="jumbotron-holder" style="height:500px">
-		<div class="jumbotron jumbotron-page parallax-window" data-parallax="scroll" data-image-src="images/tone2.jpg">
+		<div class="jumbotron jumbotron-page parallax-window" data-parallax="scroll"
+		  data-image-src="images/tone2.jpg">
 			<div class="container center-vertically-holder">
 				<div class="center-vertically">
 					<div class="col-md-10 col-md-offset-1 text-center scaleReveal">
@@ -250,12 +250,30 @@
 						<h2 class="no-margin text-white">
 							September 6th · 2020
 						</h2>
+						<hr class="hr-medium mt30 mb30">
+						<p> We are getting married on Sept. 6, 2020 at Shining Waters Marine in
+							Tantallon, NS. Please note that the wedding ceremony and reception will
+							be for adults only. Keep an eye out for invitations in the coming
+							months, where we will provide more details.</p>
+						<a data-toggle="modal" data-target="#save-the-date-modal" class="btn btn-primary btn-lg">Animated
+							Postcard</a>
 					</div><!-- /.column -->
 				</div><!-- /.vertical center -->
 			</div><!-- /.container -->
 		</div><!-- /.jumbotron -->
 	</div><!-- /.jumbotron holder -->
 	<!-- End Parallax Image -->
+
+	<div class="modal fade" id="save-the-date-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/toneanimated.gif" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Start Gallery -->
 	<section id="gallery" class="section-padding section-border-bottom">
@@ -264,71 +282,84 @@
 				<!-- Title -->
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<h3 class="section-title mb20">Gallery</h3>
-					<p class="mb30 scaleReveal">We did a cute little photoshoot for the wedding <span class="lead ion-happy-outline text-color"></span></p>
+					<p class="mb30 scaleReveal">Engagement photos coming soon, but in the
+						mean
+						time... <span class="lead ion-happy-outline text-color"></span></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
 			<div class="row">
 				<!-- Item 1 -->
 				<div class="col-sm-4 mb30">
-					<a href="images/gallery/imagine.jpg" title="Image 1" class="zoom">
-						<img src="images/gallery/square/imagine.jpg" class="img-responsive img-gallery img-circle" alt="...">
+					<a href="images/gallery/imagine.jpg" title="In New York at the John Lennon Memorial"
+					  class="zoom">
+						<img src="images/gallery/square/imagine.jpg" class="img-responsive img-gallery img-circle"
+						  alt="Alex and Becky in New York City, at the John Lennon Memorial. There is a stone patterned circle that says Imagine.">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 2 -->
 				<div class="col-sm-4 mb30">
 					<a href="images/gallery/beach.jpg" title="Image 2" class="zoom">
-						<img src="images/gallery/square/beach.jpg" class="img-responsive img-gallery img-circle" alt="...">
+						<img src="images/gallery/square/beach.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 3 -->
 				<div class="col-sm-4 mb30">
 					<a href="images/gallery/grapes1.jpg" title="Image 3" class="zoom">
-						<img src="images/gallery/square/grapes1.jpg" class="img-responsive img-gallery img-circle" alt="...">
+						<img src="images/gallery/square/grapes1.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 4 -->
 				<div class="col-sm-4 mb30">
-					<a href="images/gallery/nb_wed.jpg" title="Image 4" class="zoom">
-						<img src="images/gallery/square/nb_wed.jpg" class="img-responsive img-gallery img-circle" alt="...">
+					<a href="images/gallery/square/nb_wed.jpg" title="Image 4" class="zoom">
+						<img src="images/gallery/square/nb_wed.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 5 -->
 				<div class="col-sm-4 mb30">
 					<a href="images/gallery/sagres.jpg" title="Image 5" class="zoom">
-						<img src="images/gallery/square/sagres.jpg" class="img-responsive img-gallery img-circle" alt="...">
+						<img src="images/gallery/square/sagres.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 6 -->
 				<div class="col-sm-4 mb30">
 					<a href="images/gallery/shubie.jpg" title="Image 6" class="zoom">
-						<img src="images/gallery/square/shubie.jpg" class="img-responsive img-gallery img-circle" alt="...">
+						<img src="images/gallery/square/shubie.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 7 -->
 				<div class="col-sm-4 mb30-xs">
-					<a href="images/gallery/wedding.jpg" title="Image 7" class="zoom">
-						<img src="images/gallery/square/wedding.jpg" class="img-responsive img-gallery img-circle" alt="...">
+					<a href="images/gallery/square/wedding.jpg" title="Image 7" class="zoom">
+						<img src="images/gallery/square/wedding.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 8 -->
 				<div class="col-sm-4 mb30-xs">
-					<a href="images/gallery/summer_cottage.jpg" title="Image 8" class="zoom">
-						<img src="images/gallery/square/summer_cottage.jpg" class="img-responsive img-gallery img-circle" alt="...">
+					<a href="images/gallery/square/summer_cottage.jpg" title="At cottage on the beach one summer"
+					  class="zoom">
+						<img src="images/gallery/square/summer_cottage.jpg" class="img-responsive img-gallery img-circle"
+						  alt="Becky and Alex take a selfie with a lake in the background at cottage in the summer.">
 					</a>
 				</div><!-- /.column -->
 
 				<!-- Item 9 -->
 				<div class="col-sm-4">
 					<a href="images/gallery/grapes2.jpg" title="Image 9" class="zoom">
-						<img src="images/gallery/square/grapes2.jpg" class="img-responsive img-gallery img-circle" alt="...">
+						<img src="images/gallery/square/grapes2.jpg" class="img-responsive img-gallery img-circle"
+						  alt="...">
 					</a>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -338,13 +369,18 @@
 	<!-- End Gallery -->
 
 	<!-- Start Location -->
-	<section id="location" class="section-padding section-border-bottom parallax-window" style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll" data-image-src="images/marina.jpg">
+	<section id="location" class="section-padding section-border-bottom parallax-window"
+	  style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll"
+	  data-image-src="images/shiningwaters.jpg">
 		<div class="container">
 			<div class="row">
 				<!-- Title -->
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<h3 class="section-title mb30">Location</h3>
-					<h4 class="mb50">All events of the day will take place at <strong><a href="https://www.shiningwaters.ca/" target="_blank">Shining Waters Marine</a></strong> in Tanatallon, Nova Scotia.</h4>
+					<h4 class="mb50">All events of the day will take place at <strong><a href="https://www.shiningwaters.ca/"
+							  target="_blank">Shining Waters
+								Marine</a></strong> in Tanatallon, Nova
+						Scotia.</h4>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
@@ -352,7 +388,8 @@
 				<!-- Item 1 -->
 				<div class="col-sm-4 col-sm-offset-4 text-center leftReveal">
 					<h2 class="section-venue-title">
-						<a class="popup-gmaps btn btn-primary btn-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45401.53360286739!2d-63.93165229570596!3d44.66660824279466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b59f2fa4f300d49%3A0x85965af5b44184e2!2sShining+Waters+Marine!5e0!3m2!1sen!2sca!4v1548716501192">Open Map</a>
+						<a class="popup-gmaps btn btn-primary btn-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45401.53360286739!2d-63.93165229570596!3d44.66660824279466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b59f2fa4f300d49%3A0x85965af5b44184e2!2sShining+Waters+Marine!5e0!3m2!1sen!2sca!4v1548716501192">Open
+							Map</a>
 					</h2>
 					<p class="no-margin-bottom"></p>
 				</div><!-- /.column -->
@@ -374,12 +411,15 @@
 			<div class="row">
 				<!-- Item 1 -->
 				<div class="col-sm-6 col-md-4 text-center leftReveal">
-					<a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/halifax/yhzpd/hoteldetail" target="_blank">
-					<h2 class="section-venue-title">Holiday Inn Express</h2></a>
+					<a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/halifax/yhzpd/hoteldetail"
+					  target="_blank">
+						<h2 class="section-venue-title">Holiday Inn Express</h2>
+					</a>
 					<p class="no-margin-bottom">980 Parkland Dr, Halifax, NS B3M 4Y7</p>
 					<small>
 						<em>
-							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.789613067512!2d-63.67921438478026!3d44.68307567909941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a209c9e185c55%3A0x105c8bdb0b03dc48!2sHoliday+Inn+Express+%26+Suites+Halifax+-+Bedford!5e0!3m2!1sen!2sca!4v1548715409171">Open Map</a>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.789613067512!2d-63.67921438478026!3d44.68307567909941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a209c9e185c55%3A0x105c8bdb0b03dc48!2sHoliday+Inn+Express+%26+Suites+Halifax+-+Bedford!5e0!3m2!1sen!2sca!4v1548715409171">Open
+								Map</a>
 						</em>
 					</small>
 				</div><!-- /.column -->
@@ -387,7 +427,8 @@
 				<!-- Item 2 -->
 				<div class="col-sm-6 col-md-4 text-center leftReveal">
 					<a href="https://www.comforthotelhalifax.com/en-us" target="_blank">
-					<h2 class="section-venue-title">Comfort Hotel</h2></a>
+						<h2 class="section-venue-title">Comfort Hotel</h2>
+					</a>
 					<p class="no-margin-bottom">88 Chain Lake Drive, Halifax NS.</p>
 					<small>
 						<em>
@@ -400,27 +441,33 @@
 				<!-- Item 3 -->
 				<div class="col-sm-6 col-md-4 text-center leftReveal">
 					<a href="https://coastalinns.com/coastal-inn-halifax/" target="_blank">
-					<h2 class="section-venue-title">Coastal Inn & Suits</h2></a>
+						<h2 class="section-venue-title">Coastal Inn & Suits</h2>
+					</a>
 					<p class="no-margin-bottom">98 Chain Lake Dr, Halifax, NS B3S 1A2</p>
 					<small>
 						<em>
-							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6388.264729271902!2d-63.669516591543676!3d44.63626452433304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd73215fc3240addd!2sCoastal+Inn+Halifax!5e0!3m2!1sen!2sca!4v1548716290842">Open Map</a>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6388.264729271902!2d-63.669516591543676!3d44.63626452433304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd73215fc3240addd!2sCoastal+Inn+Halifax!5e0!3m2!1sen!2sca!4v1548716290842">Open
+								Map</a>
 						</em>
 					</small>
 				</div><!-- /.column -->
 
-		</div><!-- /.container -->
+			</div><!-- /.container -->
 	</section>
 	<!-- End Accommodations -->
 
 	<!-- Start Registry -->
-	<section id="registry" class="section-padding section-border-bottom parallax-window" style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll" data-image-src="images/tone3.jpg">
+	<section id="registry" class="section-padding section-border-bottom parallax-window"
+	  style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll"
+	  data-image-src="images/tone3.jpg">
 		<div class="container">
 			<div class="row">
 				<!-- Title -->
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<h2 class="section-title mb30">Gifts</h2>
-					<p class="lead-xl">Gifts are not necessary at all. But if you would still like to gift something, gift cards to places below are preferred.</p>
+					<p class="lead-xl">Your presence is a present. But if you would
+						still
+						like to gift something, gift cards to places below are preferred.</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
@@ -428,9 +475,16 @@
 				<!-- Content -->
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<!-- Logos -->
-					<a href="#"><img src="images/amazon.png" class="img-responsive registry-logo leftReveal" alt="..."></a>
-					<a href="#"><img src="images/ikea.png" class="img-responsive registry-logo bottomReveal" alt="..."></a>
-					<a href="#"><img src="images/petvalu.png" class="img-responsive registry-logo rightReveal" alt="..."></a>
+					<a href="https://www.amazon.ca/giftcards" target="_blank"><img src="images/amazon.png"
+						  class="img-responsive registry-logo leftReveal" alt="..."></a>
+					<a href="https://www.sobeys.com/en/gift-cards-every-occasion/" target="_blank"><img
+						  src="images/sobeys.png" class="img-responsive registry-logo leftReveal"
+						  alt="..."></a>
+					<a href="https://www.ikea.com/ms/en_CA/customer-service/about-shopping/gift-cards/index.html"
+					  target="_blank"><img src="images/ikea.png" class="img-responsive registry-logo bottomReveal"
+						  alt="..."></a>
+					<a href="http://petvalu.com/gift-cards/" target="_blank"><img src="images/petvalu.png"
+						  class="img-responsive registry-logo rightReveal" alt="..."></a>
 					<hr class="hr-small mt50 mb50">
 
 					<!-- More Options -->
@@ -438,7 +492,8 @@
 					<h2 class="section-venue-title bottomReveal">Check</h2>
 					<p class="no-margin bottomReveal">Hand deliver us a check.</p>
 					<h2 class="section-venue-title bottomReveal">Paypal</h2>
-					<p class="no-margin bottomReveal">You can send a little something <a class="color-link underline-link" href="http://paypal.com" target="_blank">here</a>.</p>
+					<p class="no-margin bottomReveal">You can send a little something <a class="color-link underline-link"
+						  href="http://paypal.com" target="_blank">here</a>.</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
@@ -460,37 +515,37 @@
 				<!-- Item 1 -->
 				<div class="col-sm-6 col-md-3 item">
 					<div class="circle-hold">
-                        <i class="ion-android-restaurant"></i>
-                    </div>
-                    <h2 class="timer mb5" data-from="1" data-to="5" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">Number of Socks Eaten</p>
+						<i class="ion-android-restaurant"></i>
+					</div>
+					<h2 class="timer mb5" data-from="1" data-to="5" data-refresh-interval="20">1</h2>
+					<p class="no-margin">Number of Socks Eaten</p>
 				</div><!-- /.column -->
 
 				<!-- Item 2 -->
 				<div class="col-sm-6 col-md-3 item mt30-xs">
 					<div class="circle-hold">
-                        <i class="glyphicon glyphicon-bed"></i>
-                    </div>
-                    <h2 class="timer mb5" data-from="1" data-to="4" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">Beds Destroyed</p>
+						<i class="glyphicon glyphicon-bed"></i>
+					</div>
+					<h2 class="timer mb5" data-from="1" data-to="4" data-refresh-interval="20">1</h2>
+					<p class="no-margin">Beds Destroyed</p>
 				</div><!-- /.column -->
 
 				<!-- Item 3 -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm">
 					<div class="circle-hold">
-                        <i class="ion-ios-rose-outline"></i>
-                    </div>
-                    <h2 class="timer mb5" data-from="1" data-to="934" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">Roses Joe gave me</p>
+						<i class="ion-ios-rose-outline"></i>
+					</div>
+					<h2 class="timer mb5" data-from="1" data-to="934" data-refresh-interval="20">1</h2>
+					<p class="no-margin">Roses Joe gave me</p>
 				</div><!-- /.column -->
 
 				<!-- Item 4 -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm">
 					<div class="circle-hold">
-                        <i class="ion-ios-people-outline"></i>
-                    </div>
-                    <h2 class="timer mb5" data-from="1" data-to="4" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">Months until the baby</p>
+						<i class="ion-ios-people-outline"></i>
+					</div>
+					<h2 class="timer mb5" data-from="1" data-to="4" data-refresh-interval="20">1</h2>
+					<p class="no-margin">Months until the baby</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -498,7 +553,8 @@
 	<!-- End Our Count -->
 
 	<!-- Start Footer -->
-	<footer class="parallax-window" style="background-color: rgba(72, 72, 106, 0.65); height:400px;" data-parallax="scroll" data-image-src="images/tone4.jpg">
+	<footer class="parallax-window" style="background-color: rgba(72, 72, 106, 0.65); height:400px;"
+	  data-parallax="scroll" data-image-src="images/tone4.jpg">
 		<div class="container center-vertically-holder">
 			<div class="center-vertically">
 				<div class="col-xs-12 text-center scaleReveal">
@@ -524,7 +580,9 @@
 		/* ---- Counter (our count) ---- */
 		$('#ourcount').one('inview', function(event, isInView) {
 			if (isInView) {
-				$('.timer').countTo({speed: 3000});
+				$('.timer').countTo({
+					speed: 3000
+				});
 			}
 		});
 	</script>
@@ -532,4 +590,5 @@
 	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
