@@ -37,7 +37,7 @@ body {
     font-size: 18px;
     color: #A2A2A2;
     height: 100%;
-    font-weight: 100;
+    font-weight: 300;
     padding-top: 81px
 }
 
@@ -126,7 +126,7 @@ a:focus {
     transition: margin-top 0.5s ease-in-out;
 }
 
-iframe {    
+iframe {
     border:0 none;
     overflow: hidden;
 }
@@ -306,7 +306,7 @@ h1, h2 {
     z-index: 10;
 }
 
-.jumbotron.jumbotron-page { 
+.jumbotron.jumbotron-page {
     height: 500px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -363,7 +363,7 @@ h1, h2 {
     font-family: 'Roboto';
 }
 
-.center-vertically-holder { 
+.center-vertically-holder {
     display: table;
     height: 100%;
     width: 100%;
@@ -404,7 +404,7 @@ h1, h2 {
 
 /* =Carousel
 -------------------------------------------------------------- */
-.overlay { 
+.overlay {
     color: #fff;
     position: absolute;
     z-index: 12;
@@ -475,7 +475,7 @@ h1, h2 {
 .carousel-control.right { background-image: none; }
 .carousel-control.left { background-image: none; }
 
-.carousel-control .carousel-arrow-left, 
+.carousel-control .carousel-arrow-left,
 .carousel-control .carousel-arrow-right {
     position: absolute;
     top: 50%;
@@ -845,7 +845,7 @@ label {
     border-top: none;
 }
 
-.tab-pane::first-letter { 
+.tab-pane::first-letter {
     font-size: 120%;
     color: #4dafd6;
     font-family: "Montserrat",sans-serif;
