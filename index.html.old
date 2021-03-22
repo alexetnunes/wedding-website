@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Denis Samardjiev" />
+	<meta name="description" content="Alex & Becky's Wedding">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Alex & Becky's Wedding</title>
+
+	<!-- Preloader CSS -->
+	<link href="css/royal_preloader.css" rel="stylesheet">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Parallax -->
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+
+	<!-- Preloader -->
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+			mode: 'number',
+			showProgress: false,
+			background: '#ffffff'
+		});
+	</script>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" title="main-css">
+	<link href="css/colors/lavender.css" rel="stylesheet">
+
+</head>
+
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar"
+  data-offset="81">
+	<div id="royal_preloader"></div>
+
+	<!-- Begin Header -->
+	<header>
+		<!-- Begin Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						  data-target="#navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand scroll-link" href="#home" data-id="home">Alex
+							&amp; Becky's Wedding</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
+							<!-- <li>
+								<a href="#" data-toggle="modal" data-target="#covid-modal" class="scroll-link">COVID-19
+									Update</a>
+							</li>
+							<li><a href="#story" data-id="story" class="scroll-link">Story</a></li>
+							<li><a href="#gallery" data-id="gallery" class="scroll-link">Gallery</a></li>
+							<li><a href="#location" data-id="location" class="scroll-link">Location</a></li>
+							<li><a href="#registry" data-id="registry" class="scroll-link">Gifts</a></li> -->
+							<li><a href="#donate" data-id="donate" class="scroll-link">Donate</a></li>
+							<!-- <li class="nav-btn"><a target="_blank" href="https://forms.gle/pNb2pKSvPJUznm6N9"
+								  class="btn btn-primary btn-lg">RSVP</a></li> -->
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</nav>
+		<!-- End Navigation -->
+
+	</header>
+	<!-- End Header -->
+
+	<!-- Begin Jumbotron -->
+	<div class="jumbotron-holder">
+		<div class="jumbotron jumbotron-main parallax-window" id="home" data-parallax="scroll"
+		  data-image-src="images/tone1.jpg">
+			<div class="container height-100">
+				<div class="center-vertically-holder">
+					<div class="center-vertically">
+						<div class="col-sm-10 col-sm-offset-1 text-center bottomReveal">
+							<h1 class="header-title">
+								We've postponed our weddin!
+							</h1>
+							<span class="section-divider section-divider-center section-divider-transparent"></span>
+							<p>Alex &amp; Becky's Wedding On September 5<sup>th</sup>, 2021 ·
+								Shining Waters
+								Marine,
+								Tantallon, NS</p>
+							<!-- <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#rsvp-modal">RSVP</button> -->
+						</div><!-- /.column -->
+
+						<div class="scroll-down">
+							<a href="#story" data-id="story" class="btn scroll-link"><span class="ion-ios-arrow-down scroll-indicator"></span></a>
+						</div>
+					</div><!-- /.vertical center -->
+				</div><!-- /.vertical center holder -->
+			</div><!-- /.container -->
+		</div><!-- /.jumbotron -->
+	</div><!-- /.jumbotron holder -->
+	<!-- End Jumbotron -->
+
+	<!-- Start Story -->
+	<section id="story" class="section-padding">
+
+		<div class="container">
+			<div class="row">
+				<!-- Content -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+
+					<h3 class="section-title mb30">Our Story</h3>
+					<h2 class="no-margin-top mb20">I-choo-choo-choose you!</h2>
+					<p class="mb20">Alex and I first met back in 2013. We went on one coffee
+						date to the Second Cup on Spring Garden Road (which no longer exists)
+						and
+						had a walk in the Public Gardens. “So, do you want to do this again?” I
+						asked. “Absolutely!” said Alex. “Text me.” I did not text him. He did
+						not
+						text me.</p>
+					<p class="mb20">Fast-forward to summer 2014, when I was surfing Tinder
+						following a break-up. I recognized Alex’s photo right away, and when we
+						matched, I initiated a conversation. We made plans to meet up the next
+						time I was in Halifax, as I was working a summer job at a paper in
+						Bridgewater at the time. We agreed to date casually at first, but then
+						we
+						fell in love. The rest – as they say – is history.</p>
+					<p class="mb30">Some people think dating apps are unromantic, but without
+						one, we may never have found each other again. I do think we were meant
+						to find each other again. </p>
+					<p><span class="text-heavy text-color">-Becky</span></p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+	<!-- End Story -->
+
+	<!-- Start Timeline -->
+	<section class="section-border-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="timeline timeline-pad">
+						<!-- Item 1 -->
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/gallery/square/cake.jpg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">Summer 2013</h3>
+									<h4>Our First Date</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Our first date was at the Second Cup (fishbowl) coffee shop,
+										formerly on Spring Garden.</p>
+								</div>
+							</div>
+						</li>
+
+						<!-- Item 2 -->
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/beer.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">August 2014</h3>
+									<h4> Our Second First Date</h4>
+								</div>
+								<div class="timeline-body">
+									<p>After reconnecting, we met up at Stillwell's beer bar on
+										Barrington.</p>
+								</div>
+							</div>
+						</li>
+
+
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/movein.jpg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">September 2015</h3>
+									<h4>We Move In Together</h4>
+								</div>
+								<div class="timeline-body">
+									<p>We decided to move into together after a year of dating. Found a
+										one bedroom around the Dalhousie Campus.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/tone1square.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">November 2015</h3>
+									<h4>We Adopt Tone</h4>
+								</div>
+								<div class="timeline-body">
+									<p>On November 29 2015, we adopted our greyhound, Tone,
+										and doomed our selves to saying "What do you have?!" multiple times
+										a
+										day.</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/card.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15">August 2017</h3>
+									<h4>Alex Proposes</h4>
+								</div>
+								<div class="timeline-body">
+									<p>August 28 2017, Alex surprised Becky with flowers, a
+										card, and a bottle of Nova 7 asking her to marry him. The answer was
+										"What the f**k?".</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive"
+								  src="images/ring.jpg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h3 class="section-sub-title text-color mb15"> September 2021</h3>
+									<h4 class="text-color">We're getting married!</h4>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+	<!-- End Timeline -->
+
+	<!-- Begin Parallax Image -->
+	<div class="jumbotron-holder" style="height:500px">
+		<div class="jumbotron jumbotron-page parallax-window" data-parallax="scroll"
+		  data-image-src="images/engage_background.jpg">
+			<div class="container center-vertically-holder">
+				<div class="center-vertically">
+					<div class="col-md-10 col-md-offset-1 text-center scaleReveal">
+						<h3 class="section-sub-title mb10 text-white">Save The Date</h3>
+						<h2 class="no-margin text-white">
+							September 5<sup>th</sup> · 2021
+						</h2>
+						<hr class="hr-medium mt30 mb30">
+						<p> We are getting married on Sept. 5, 2021 at Shining Waters Marine in
+							Tantallon, NS. Please note that the wedding ceremony and reception will
+							be for adults only. Keep an eye out for invitations in the coming
+							months, where we will provide more details.</p>
+						<a data-toggle="modal" data-target="#save-the-date-modal" class="btn btn-primary btn-lg">Animated
+							Postcard</a>
+					</div><!-- /.column -->
+				</div><!-- /.vertical center -->
+			</div><!-- /.container -->
+		</div><!-- /.jumbotron -->
+	</div><!-- /.jumbotron holder -->
+	<!-- End Parallax Image -->
+
+	<div class="modal fade" id="save-the-date-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/toneanimated.gif" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="covid-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/lets-try-this-again.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Start Gallery -->
+	<section id="gallery" class="section-padding section-border-bottom">
+		<div class="container">
+			<div class="row">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h3 class="section-title mb20">Gallery</h3>
+					<p class="mb30 scaleReveal">Engagement Photos by Nicole Lapierre
+						Photography <span class="lead ion-happy-outline text-color"></span></p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="row">
+					<!-- Item 1 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_1.jpg" class="zoom">
+							<img src="images/gallery/square/engage_1.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Alex and Becky dressed up on a beach.">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 2 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_2.jpg" class="zoom">
+							<img src="images/gallery/square/engage_2.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Becky and Alex laughing.">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 3 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_3.jpg" class="zoom">
+							<img src="images/gallery/square/engage_3.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Becky and Alex holding hands and smiling.">
+						</a>
+					</div><!-- /.column -->
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/square/engage_4.jpg" class="zoom">
+							<img src="images/gallery/square/engage_4.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Alex leads beck through a path.">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 5 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_5.jpg" class="zoom">
+							<img src="images/gallery/square/engage_5.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Alex and Becky sitting together in a field.">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 6 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_6.jpg" class="zoom">
+							<img src="images/gallery/square/engage_6.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Alex and Becky holding hands and walking on the beach">
+						</a>
+					</div><!-- /.column -->
+				</div>
+				<!-- Item 7 -->
+				<div class="row">
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/square/engage_7.jpg" class="zoom">
+							<img src="images/gallery/square/engage_7.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Becky looks back while holding Alex's hand.">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 8 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/square/engage_8.jpg" class="zoom">
+							<img src="images/gallery/square/engage_8.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Close-up of Becky and Alex's hands holding">
+						</a>
+					</div><!-- /.column -->
+
+					<!-- Item 9 -->
+					<div class="col-sm-4 mb30">
+						<a href="images/gallery/engage_9.jpg" class="zoom">
+							<img src="images/gallery/square/engage_9.jpg" class="img-responsive img-gallery img-circle"
+							  alt="Alex and Becky on the beach walking away from the water holding hands.">
+						</a>
+					</div><!-- /.column -->
+				</div>
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+	<!-- End Gallery -->
+
+	<!-- Start Location -->
+	<section id="location" class="section-padding section-border-bottom parallax-window"
+	  style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll"
+	  data-image-src="images/shiningwaters.jpg">
+		<div class="container">
+			<div class="row">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h3 class="section-title mb30">Location</h3>
+					<h4 class="mb50">All events of the day will take place at <strong><a href="https://www.shiningwaters.ca/"
+							  target="_blank">Shining Waters
+								Marine</a></strong> in Tantallon, Nova
+						Scotia.</h4>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Item 1 -->
+				<div class="col-sm-4 col-sm-offset-4 text-center leftReveal">
+					<h2 class="section-venue-title">
+						<a class="popup-gmaps btn btn-primary btn-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45401.53360286739!2d-63.93165229570596!3d44.66660824279466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b59f2fa4f300d49%3A0x85965af5b44184e2!2sShining+Waters+Marine!5e0!3m2!1sen!2sca!4v1548716501192">Open
+							Map</a>
+					</h2>
+					<p class="no-margin-bottom"></p>
+				</div><!-- /.column -->
+			</div>
+		</div><!-- /.container -->
+	</section>
+	<!-- End Location -->
+
+	<!-- Start Accommodations -->
+	<section id="accommodations" class="section-padding section-border-bottom">
+		<div class="container">
+			<div class="row">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="section-title mb30">Accommodations</h2>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Item 1 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/halifax/yhzpd/hoteldetail"
+					  target="_blank">
+						<h2 class="section-venue-title">Holiday Inn Express</h2>
+					</a>
+					<p class="no-margin-bottom">980 Parkland Dr, Halifax NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.789613067512!2d-63.67921438478026!3d44.68307567909941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a209c9e185c55%3A0x105c8bdb0b03dc48!2sHoliday+Inn+Express+%26+Suites+Halifax+-+Bedford!5e0!3m2!1sen!2sca!4v1548715409171">Open
+								Map</a>
+						</em>
+					</small>
+				</div><!-- /.column -->
+
+				<!-- Item 2 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://www.comforthotelhalifax.com/en-us" target="_blank">
+						<h2 class="section-venue-title">Comfort Hotel</h2>
+					</a>
+					<p class="no-margin-bottom">88 Chain Lake Drive, Halifax NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.041411481471!2d-63.670290984782!3d44.63707057909992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a202d1f024ad5%3A0xa7071eac05a72075!2sComfort+Hotel+Bayer&#39;s+Lake!5e0!3m2!1sen!2sca!4v1548715878466">
+								Open Map</a>
+						</em>
+					</small>
+				</div><!-- /.column -->
+				<!-- Item 3 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://larindaslanding.com/" target="_blank">
+						<h2 class="section-venue-title">Larinda's Landing</h2>
+					</a>
+					<p class="no-margin-bottom">7532 St Margarets Bay Rd, Boutiliers Point,
+						NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11350.072909700566!2d-63.9622115!3d44.6681939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a399d65ac27e4ad!2sLarinda&#39;s%20Landing%20Oceanfront%20Cottages!5e0!3m2!1sen!2sca!4v1573069829268!5m2!1sen!2sca">
+								Open Map</a> </em> </small>
+				</div> <!-- /.column -->
+
+				<!-- Item 4 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://coastalinns.com/coastal-inn-halifax/" target="_blank">
+						<h2 class="section-venue-title">Coastal Inn & Suites</h2>
+					</a>
+					<p class="no-margin-bottom">98 Chain Lake Dr, Halifax NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6388.264729271902!2d-63.669516591543676!3d44.63626452433304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd73215fc3240addd!2sCoastal+Inn+Halifax!5e0!3m2!1sen!2sca!4v1548716290842">Open
+								Map</a>
+						</em>
+					</small>
+				</div><!-- /.column -->
+				<!-- Item 5 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://lordnelsonhotel.ca/" target="_blank">
+						<h2 class="section-venue-title">Lord Nelson Hotel & Suites</h2>
+					</a>
+					<p class="no-margin-bottom">1515 South Park St, Halifax, NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11355.056473877617!2d-63.57959!3d44.6427378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8f7801c245f7d29!2sThe%20Lord%20Nelson%20Hotel%20%26%20Suites!5e0!3m2!1sen!2sca!4v1573070234071!5m2!1sen!2sca">Open
+								Map</a>
+						</em>
+					</small>
+				</div><!-- /.column -->
+				<!-- Item 6 -->
+				<div class="col-sm-6 col-md-4 text-center leftReveal">
+					<a href="https://www.marriott.com/hotels/travel/yhzwi-the-westin-nova-scotian/"
+					  target="_blank">
+						<h2 class="section-venue-title">Westin Nova Scotian</h2>
+					</a>
+					<p class="no-margin-bottom">1181 Hollis St, Halifax NS</p>
+					<small>
+						<em>
+							<a class="popup-gmaps underline-link" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11355.562024929428!2d-63.5682786!3d44.6401548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf65e40e918b64a3a!2sThe%20Westin%20Nova%20Scotian!5e0!3m2!1sen!2sca!4v1573070373266!5m2!1sen!2sca">Open
+								Map</a>
+						</em>
+					</small>
+				</div><!-- /.column -->
+			</div>
+			<br />
+			<div class="row" style="margin-top:40px">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="section-title mb30">Transportation</h2>
+					<p> We are thinking about providing a bus service into downtown Halifax
+						during the end of the night. Please let us kno in your RSVP if you would
+						like to use it.</p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Item 1 -->
+				<div class="col-sm-6 col-md-6 text-center leftReveal">
+					<h2 class="section-venue-title">Alliance Taxi</h2>
+					<p class="no-margin-bottom">(902) 876-4444</p>
+				</div><!-- /.column -->
+
+				<!-- Item 2 -->
+				<div class="col-sm-6 col-md-6 text-center leftReveal">
+					<a href="https://www.casinotaxi.ca/" target="_blank">
+						<h2 class="section-venue-title">Casino Taxi</h2>
+					</a>
+					<p class="no-margin-bottom">(902) 429-6666</p>
+				</div><!-- /.column -->
+
+
+			</div>
+		</div><!-- /.container -->
+	</section>
+	<!-- End Accommodations -->
+
+	<!-- Start Registry -->
+	<section id="registry" class="section-padding section-border-bottom parallax-window"
+	  style="background-color: rgba(72, 72, 106, 0.65);" data-parallax="scroll"
+	  data-image-src="images/bw_engage.jpg">
+		<div class="container">
+			<div class="row">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="section-title mb30">Gifts</h2>
+					<p class="lead-xl">Your presence is a present. But if you would
+						still like to gift something, gift cards to places below are preferred.</p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Content -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<!-- Logos -->
+					<a href="https://www.amazon.ca/giftcards" target="_blank"><img src="images/amazon.png"
+						  class="img-responsive registry-logo leftReveal" alt="..."></a>
+					<a href="https://www.sobeys.com/en/gift-cards-every-occasion/" target="_blank"><img
+						  src="images/sobeys.png" class="img-responsive registry-logo bottomReveal"
+						  alt="..."></a>
+					<a href="https://www.ikea.com/ms/en_CA/customer-service/about-shopping/gift-cards/index.html"
+					  target="_blank"><img src="images/ikea.png" class="img-responsive registry-logo bottomReveal"
+						  alt="..."></a>
+					<a href="http://petvalu.com/gift-cards/" target="_blank"><img src="images/petvalu.png"
+						  class="img-responsive registry-logo rightReveal" alt="..."></a>
+
+				</div>
+				<!-- /.column
+						  -->
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+
+
+	<section id="donate" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<!-- Content -->
+				<div class="col-sm-12 col-md-8 col-md-offset-2 text-center">
+
+					<!-- More Options -->
+					<h2 class="section-title mb30">Donate to the ALS
+						Society of Canada</h2>
+					<div class="row">
+						<div class="col-xs-6 col-xs-offset-3 mb30">
+							<a href="https://secure.e2rm.com/registrant/DonationPage.aspx?eventid=214165&langpref=en-CA&utm_campaign=website&utm_source=home&utm_medium=button"
+							  target="_blank"><img src="images/als-logo.jpg" class="img-responsive img-square rightReveal"
+								  alt="..."></a>
+						</div>
+						<div class="col-xs-12 mb30">
+							<p class="text-center align-middle">Becky lost her dad to ALS in 2016.
+								It is heartbreaking for us to have our wedding without him. In his
+								absence, Becky would like to give our guests the opportunity to honour
+								Ron by contributing to ALS research and support for families living
+								with the illness. If you’d like, you may donate to the ALS Society of
+								Canada in lieu of a gift.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 mb30">
+							<a href="https://secure.e2rm.com/registrant/DonationPage.aspx?eventid=214165&langpref=en-CA&utm_campaign=website&utm_source=home&utm_medium=button"
+							  class="btn btn-lg btn-primary" target="_blank"> Donate to the ALS
+								Society of Canada</a>
+						</div>
+					</div>
+					<!-- /.column
+						  -->
+				</div><!-- /.row -->
+			</div>
+		</div><!-- /.container -->
+	</section>
+	<!-- End Registry -->
+
+	<!-- Start Footer -->
+	<footer class="parallax-window" style="background-color: rgba(72, 72, 106, 0.65); height:400px;"
+	  data-parallax="scroll" data-image-src="images/tone4.jpg">
+		<div class="container center-vertically-holder">
+			<div class="center-vertically">
+				<div class="col-xs-12 text-center scaleReveal">
+					<!-- <h3 class="section-sub-title mb10 text-white">Save The Date</h3> -->
+					<h2 class="no-margin text-white">
+						See You Soon!
+					</h2>
+				</div><!-- /.column -->
+				<div class="col-xs-12 text-right">
+					<a href="#" class="scroll-top"><i class="footer-arrow ion-ios-arrow-up"></i></a>
+				</div>
+			</div><!-- /.vertical center -->
+		</div><!-- /.container -->
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript">
+		/* ---- Counter (our count) ---- */
+		$('#ourcount').one('inview', function(event, isInView) {
+			if (isInView) {
+				$('.timer').countTo({
+					speed: 3000
+				});
+			}
+		});
+	</script>
+	<script type="text/javascript" src="js/form-validator.min.js"></script>
+	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
